@@ -1,0 +1,105 @@
+.btn-link-primary {
+	--bs-btn-color: var(--bs-link-color);
+	--bs-btn-hover-color: var(--bs-link-hover-color);
+}
+
+.btn-link-success {
+	--bs-btn-color: var(--bs-success);
+	--bs-btn-hover-color: var(--bs-success);
+}
+
+.btn-link-danger {
+	--bs-btn-color: var(--bs-danger);
+	--bs-btn-hover-color: var(--bs-danger);
+}
+
+.wr-icon {
+	display: inline-block;
+	line-height: 1;
+	transition: color 0.3s ease-out
+}
+
+body.is-loading {
+	visibility: hidden;
+}
+
+#navbar {
+	transition: background-color 0.3s ease-out;
+}
+
+#navbar .wr-icon-shield-virus {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+#clear-button {
+	background-color: transparent;
+	border-color: transparent;
+	opacity: 0;
+	pointer-events: none;
+	position: absolute;
+	right: 3.25em;
+	transition: opacity 0.3s ease-out;
+	z-index: 5;
+}
+
+input:not(:placeholder-shown) + #clear-button {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+#suggestions {
+	display: block;
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(-8px);
+	transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+#suggestions.show {
+	opacity: 1;
+	transform: translateY(0);
+	pointer-events: auto;
+}
+
+#alert-message {
+	min-height: 3.75rem;
+	opacity: 0;
+	transition: opacity 0.3s ease-out;
+}
+
+#alert-message:not(:empty) {
+	opacity: 1;
+}
+
+#alert-message button {
+	background-color: transparent;
+	border: 0;
+	border-bottom: 1px dashed;
+	border-radius: 0;
+	color: var(--bs-danger-text-emphasis);
+	font-weight: 600;
+	padding: 0;
+	text-decoration: none;
+}
+
+#alert-message button:focus-visible {
+	box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb), .5);
+	outline: 0;
+}
+
+footer .badge {
+	margin-bottom: .15rem;
+}
+
+@media (max-width: 991.98px) {
+	main {
+		min-height: 70vh;
+	}
+}
+
+@media (max-width: 576px) {
+	.main-title {
+		font-size: 1.5em;
+	}
+}
