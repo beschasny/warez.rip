@@ -193,7 +193,7 @@ function setTheme(theme) {
 // Load and apply language
 async function updateLanguage(lang) {
 	try {
-		const response = await fetch(`lang/${lang}.json`);
+		const response = await fetch(`locales/${lang}.json`);
 		const translations = await response.json();
 
 		app.i18n.translations = translations;
@@ -277,7 +277,7 @@ function initUI() {
 
 // Load site lists
 async function loadSites() {
-	const res = await fetch('sites/sites.json');
+	const res = await fetch('data/sites.json');
 	app.data.sites = await res.json();
 
 	['safe', 'pirated', 'known'].forEach(key => {
