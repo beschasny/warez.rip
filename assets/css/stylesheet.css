@@ -63,7 +63,7 @@ input:not(:placeholder-shown) + #clear-button {
 }
 
 #alert-message {
-	min-height: 3.75rem;
+	min-height: 3.5rem;
 	opacity: 0;
 	transition: opacity 0.3s ease-out;
 }
@@ -101,5 +101,9 @@ footer .badge {
 @media (max-width: 576px) {
 	.main-title {
 		font-size: 1.5em;
+	}
+
+	#alert-message {
+		min-height: 6.5rem;
 	}
 }

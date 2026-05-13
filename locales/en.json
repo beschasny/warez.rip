@@ -64,12 +64,13 @@
   "modal-warez-secondary-signs-outro":       "Of course, these are not all indicators of a dangerous website. If you are unsure, use this verification tool and enter the suspicious URL. If we have any information about it, you will receive it immediately.",
 
   "modal-trusted-title":                     "Trusted websites",
-  "modal-trusted-intro":                     "Distinguishing trusted websites from illegal ones that distribute cracked and malicious software under the guise of legitimate products is not particularly difficult in practice. The number of trustworthy marketplaces is limited, and their list is well known. In Eastern Europe and neighboring regions, there are 5 most well-known OpenCart marketplaces:",
+  "modal-trusted-intro":                     "Distinguishing trusted websites from illegal ones that distribute cracked and malicious software under the guise of legitimate products is not particularly difficult in practice. The number of trustworthy marketplaces is limited, and their list is well known. In Eastern Europe and neighboring regions, there are 6 most well-known OpenCart marketplaces:",
   "modal-trusted-site-1-text":               "The largest thematic forum with an extensions store and the popular ocStore build",
   "modal-trusted-site-2-text":               "A well-known extensions marketplace operating since 2014",
   "modal-trusted-site-3-text":               "An extensions marketplace with its own custom build",
   "modal-trusted-site-4-text":               "A project specialized in video reviews",
   "modal-trusted-site-5-text":               "A forum-based project with an extensions marketplace",
+  "modal-trusted-site-6-text":               "A new marketplace from extension developers",
   "modal-trusted-outro":                     "<p>There is also the official OpenCart website and the international marketplace, but this overview focuses primarily on the local market, where such violations are more common.</p><p>Personal websites and extension stores of individual authors are not included, as there are many of them and they are harder to track. Their authenticity can usually be verified directly by contacting the author.</p>",
   "modal-trusted-attention-title":           "Please note",
   "modal-trusted-attention-text":            "If a website is not a personal developer project and is not part of the well-known marketplaces listed above, it should be treated with increased caution and verified before use.",
@@ -108,7 +109,7 @@
   "footer-statistics-data-updated-title":    "Updated:",
   "footer-statistics-data-updated-date":     "%dataUpdated%",
   "footer-statistics-app-version-title":     "Version:",
-  "footer-statistics-app-version-number":    "%appVersion%",
+  "footer-statistics-app-version-number":    "v%appVersion%",
   "footer-brand-text":                       "OpenCart marketplaces safety and reputation checker based on multi-factor risk analysis",
   "footer-copyright-text":                   "<strong>RGB</strong> © 2018 - %year%"
 }

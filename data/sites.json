@@ -1,12 +1,13 @@
 {
-  "dataUpdated": "2026.05.08",
-  "appVersion": "1.0.0",
+  "dataUpdated": "2026.05.13",
+  "appVersion": "1.0.1",
+
   "suggestions": [
-    "example.com",
+    "google.com",
     "opencart.com",
-    "opencartforum.com",
     "babia.to"
   ],
+
   "known": [
     "example.com",
     "github.com",
@@ -33,6 +34,25 @@
     "youtu.be",
     "t.me"
   ],
+
+  "safe": [
+    "warez.rip",
+    "opencart.com",
+    "opencartforum.com",
+    "ocstore.com",
+    "opencart.pro",
+    "liveopencart.ru",
+    "opencart-russia.ru",
+    "prodelo.biz",
+    "themeforest.net",
+    "templatemonster.com",
+    "mhccorp.com",
+    "dreamvention.com",
+    "opencartbot.com",
+    "opencartcode.com",
+    "opencart.club"
+  ],
+
   "pirated": [
     "lowenet.biz",
     "feofan.club",
@@ -255,22 +275,5 @@
     "opencart.ru",
     "moduli-opencart.com.ua",
     "babia.to"
-  ],
-  "safe": [
-    "warez.rip",
-    "opencart.com",
-    "opencartforum.com",
-    "ocstore.com",
-    "opencart.pro",
-    "liveopencart.ru",
-    "opencart-russia.ru",
-    "prodelo.biz",
-    "themeforest.net",
-    "templatemonster.com",
-    "mhccorp.com",
-    "dreamvention.com",
-    "opencartbot.com",
-    "opencartcode.com",
-    "opencart.club"
   ]
 }

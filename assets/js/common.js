@@ -357,6 +357,8 @@ function initEvents() {
 
 	document.addEventListener('click', (e) => {
 		if (!app.ui.searchContainer.contains(e.target)) {
+			app.ui.searchInput.blur();
+
 			toggleSuggestions(false);
 		}
 	});
