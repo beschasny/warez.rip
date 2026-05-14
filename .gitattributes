@@ -1,2 +1,2 @@
-data/ linguist-vendored
-locales/ linguist-vendored
+data/** linguist-vendored
+locales/** linguist-vendored
