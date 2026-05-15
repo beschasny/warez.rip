@@ -1,8 +1,9 @@
 {
-  "title":                                   "OpenCart Extensions Checker",
+  "title":                                   "Warez R.I.P. — OpenCart extensions and themes safety checker",
   "meta-description":                        "Security and reputation analysis service for OpenCart marketplaces distributing modules and themes. Detection of piracy, fraud, and unauthorized content distribution indicators.",
 
-  "search-help":                             "Enter the address of a marketplace with <b>OpenCart</b> themes or modules",
+  "search-title":                            "OpenCart Extensions Checker",
+  "search-help":                             "Enter the address of a marketplace with <b>OpenCart</b> themes or extensions",
   "search-suggestions":                      "Popular searches",
 
   "result-safe":                             "<strong>All good!</strong> This website is trusted",

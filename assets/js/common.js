@@ -44,6 +44,19 @@ function getQueryParam(name) {
 	return query.trim().replace(/[<>"]/g, '').slice(0, 128);
 }
 
+// Update robots meta tag for search pages
+function updateRobotsMeta(isSearchPage) {
+	let meta = document.querySelector('meta[name="robots"]');
+
+	if (!meta) {
+		meta = document.createElement('meta');
+		meta.name = 'robots';
+		document.head.appendChild(meta);
+	}
+
+	meta.content = isSearchPage ? 'noindex, follow' : 'index, follow';
+}
+
 function updateQueryParam(value) {
 	const url = new URL(window.location);
 	const cleanQuery = value ? value.trim().slice(0, 128) : '';
@@ -53,6 +66,8 @@ function updateQueryParam(value) {
 	} else {
 		url.searchParams.delete('q');
 	}
+
+	updateRobotsMeta(!!cleanQuery);
 
 	window.history.replaceState({}, '', url);
 }
@@ -412,9 +427,10 @@ async function initApp() {
 	
 	renderSuggestions();
 
-	// Restore search input from URL
+	// Restore search input from URL and update meta tag
 	const value = getQueryParam('q');
 	if (value) app.ui.searchInput.value = value;
+	updateRobotsMeta(!!value);
 
 	// Sync UI with current search value
 	updateSearchState();
