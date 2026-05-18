@@ -1,2 +1,6 @@
+index.html linguist-detectable=false
+assets/css/bootstrap.min.css linguist-vendored
+assets/js/bootstrap.bundle.min.js linguist-vendored
+assets/icons/** linguist-vendored
 data/** linguist-vendored
 locales/** linguist-vendored
